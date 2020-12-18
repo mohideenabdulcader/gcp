@@ -56,6 +56,6 @@ resource "google_compute_instance" "mohivm" {
 }
 
 output "output_vm" {
-  value = google_compute_instance.mohivm.public_ip
+  value = google_compute_instance.mohivm.network_interface.access_config.nat_ip
 }
 
