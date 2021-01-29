@@ -1,10 +1,10 @@
 provider "aws" {
-region = "us-east-1"
+region = "us-east4"
 }
 
 provider "google" {
   project     = "unilever-poc"
-  region      = "us-central1"
+  region      = "us-east4"
   #credentials = file ("gcp-ulpoc.json")
   zone = "us-east4-a"
 }
