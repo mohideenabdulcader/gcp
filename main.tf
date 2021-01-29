@@ -11,7 +11,7 @@ provider "google" {
 terraform {
   backend "gcs" {
     bucket  = "ul-poc-terraform"
-    prefix  = "terraform/state"
+    prefix  = "terraform/states"
   }
 }
 # resource "aws_instance" "mohi-vm" {
