@@ -5,7 +5,7 @@ region = "us-east4"
 provider "google" {
   project     = "unilever-poc"
   region      = "us-east4"
-  #credentials = file ("gcp-ulpoc.json")
+  credentials = file ("gcp-ulpoc.json")
   zone = "us-east4-a"
 }
 terraform {
